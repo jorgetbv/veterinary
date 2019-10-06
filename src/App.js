@@ -53,7 +53,7 @@ class App extends Component {
        <div className="mt-5 col-md-10 mx-auto">
           <DateList 
               dates={this.state.dates}
-              daleteDates={this.deleteDate}>
+              deleteDate={this.deleteDate}>
           </DateList>
        </div>
       </div>
